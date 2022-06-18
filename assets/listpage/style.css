@@ -1,0 +1,49 @@
+.fulllist {
+  margin: 20px;
+  padding: 10px;
+  background: black;
+}
+.listpage {
+  text-align: center;
+  background: #ccc;
+  display: grid;
+}
+.adduser {
+  margin-left: -7%;
+}
+.logout {
+  margin-right: -7%;
+}
+.edit {
+ float: left;
+}
+.delete {
+ float: left;
+}
+.print{
+ float: left;
+}
+@media only screen and (max-width: 600px) {
+  .table{
+    width: 200px;
+  }
+  .adduser {
+  margin-left: -3%;
+}
+.logout {
+  margin-right: -3%;
+}
+
+}
+@media only screen and (max-width:1200px) {
+  /* For mobile phones: */
+  .table{
+    width: 800px;
+  }
+  .adduser {
+  margin-left: 20%;
+}
+.logout {
+  margin-right: 20%;
+}
+}

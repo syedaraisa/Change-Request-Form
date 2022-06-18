@@ -1,0 +1,305 @@
+body, html {
+  margin: 20px;
+}
+header{
+  border: 1px black solid;
+}
+.headerMain{
+  border-bottom: 1px black solid;
+  height: 135px;
+}
+.leftTab {
+  width: 25%;
+  height: 100%;
+  float: left;  
+  border-collapse: collapse;
+  /* border: 1px black solid; */
+}
+.leftTab img{
+  justify-content: center;
+  width: 59%;
+  height: auto;
+  margin-left: 12%;
+}
+.middleTab {
+  width: 49%;
+  height: 100%;
+  float: left; 
+  border-collapse: collapse;
+  text-align: center;
+  border: 1px black solid;
+  border-bottom-style: none;
+  border-top-style: none;
+}
+.BGTitle{
+  font-size: 25px;
+  font-weight: 800;
+}
+.CRTitle{
+  font-size: 19px;
+  font-weight: 600;
+}
+hr{
+  background-color: black;
+}
+.rightTab {
+width: 25%;
+height: 100%;
+position: relative;
+float: right;
+border-collapse: collapse;
+/* border: 1px black solid; */
+}
+.rightTab img{
+  justify-content: center;
+  width: 60%;
+  height: 100%;
+  margin-left: 12%;
+}
+.headerFooter{
+  text-align: right;
+  margin-right: 20px;
+}
+.fullForm{
+  margin-top: 50px;
+}
+#row{
+  padding-left: 5px;
+  border: 1px solid grey;
+  display: flex;
+}
+/* .rowOne{
+  padding-left: 5px;
+  border: 1px solid grey;
+} */
+.rowOne .paraOne{
+  width: 40%;
+  float: left;
+}
+.rowOne .paraTwo{
+  width: 15%;
+  float: left;
+}
+.rowOne .paraThree{
+  width: 20%;
+}
+.rowOne .rowThree{
+  width: 35%;
+  position: relative;
+  float: right;
+}
+
+#row .paraOne{
+  width: 40%;
+  border-collapse: collapse;
+  float: left;
+  border-top-style: none;
+}
+#row input {
+  float: left;
+  width: 60%;
+  padding: 19px 20px;
+  margin: 0;
+  /*height: 100%;*/
+  display:block;
+  border: 1px solid #ccc;
+  border-radius: 0px;
+  box-sizing: border-box;
+  border-collapse: collapse;
+  border-top-style: none;
+}
+
+.formPage > .rowFive > .colOne{
+  width: 40%;
+}
+.formPage > .rowFive > .colTwo > input{
+  width: auto !important;
+  height: auto !important;
+}
+.formPage > .rowFive{
+  display: grid;
+  float: inherit;
+}
+.rowSeven > .colOne{
+  width: 40%;
+}
+.rowSeven > .colTwo > input{
+  width: auto !important;
+  height: auto !important;
+}
+.rowSeven {
+  display: grid;
+  float: inherit;
+}
+.pgNo{
+  display: flex;
+}
+.pgNo > .paraOne{
+  width: 50%;
+}
+.pgNo > .paraTwo{
+  width: 50%;
+  float: right;
+  text-align: right;
+  padding-right: 10px;
+}
+/* .containerTwo {
+  border: 1px solid grey;
+  margin-top: 20px;
+} */
+/* .containerTwo > #row {
+  padding: 15px;
+} */
+#container{
+  border: 1px solid grey;
+  margin-top: 40px;
+}
+.containerTwo > #row > .colOne{
+  width: 40%;
+}
+.containerTwo > #row > .colTwo{
+  width: 30%;
+}
+.containerTwo > #row > .colThree{
+  width: 30%;
+}
+.containerTwo > #row > .colTwo > input{
+  width: 100%;
+}
+.containerTwo > #row > .colThree > input{
+  width: 100%;
+}
+.containerFour > #row > .checkBox > input{
+  width: 15%;
+  height: auto;
+}
+.containerFour > .rowTwo {
+  padding-left: 5px;
+  border: 1px solid grey;
+  padding-bottom: 10px;
+}
+.containerFour > .rowThree > textarea{
+  width: 100%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 1px solid grey;
+  border-radius: 0px;
+  font-size: 15px;
+  resize: none;
+}
+.containerFour > .rowThree > div{
+  display: flex;
+  width: 100%;
+}
+.containerFour > .rowThree > div > textarea{
+  width: 90%;
+  height: 150px;
+  padding: 15px 5px;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  font-size: 15px;
+  resize: none;
+}
+.containerFour > .rowFour{
+  padding-top: 100px;
+  padding-bottom: 10px;
+}
+.containerThree > .rowTwo > .colOne{
+  width: 20%;
+}
+.containerThree > .rowTwo > .colTwo > input{
+  width: auto !important;
+  height: auto !important;
+}
+.containerThree > .rowThree{
+  height: 50px;
+}
+.insideTb{
+  display: flex;
+  margin: 15px;
+  border: 1px solid grey;
+}
+.insideTb > div{
+  background-color: #E2E5DE;
+  display: grid;
+  width: 25%;
+  border: 1px solid grey;
+}
+.insideTb > div >input{
+  height: 130px !important;
+  width: 100% !important;
+}
+.insideTb > div >p{
+  padding-left: 10px !important;
+}
+.containerThree > .rowFour{
+  display: block !important;
+}
+.formPage > .row12 > textarea{
+  width: 100%;
+  height: 150px;
+  padding: 15px 5px;
+  box-sizing: border-box;
+  /* border: 1px solid grey; */
+  border-radius: 0px;
+  font-size: 15px;
+  resize: none;
+}
+.formPage > .row13{
+  display: block !important;
+  box-sizing: border-box !important;
+}
+.formPage > .row13 > .paraTwo{
+  display: flex;
+}
+.formPage > .row13 > .paraThree{
+  display: flex;
+}
+.formPage > .row13 > .paraFour{
+  display: flex;
+}
+.formPage > .row13 > div > input {
+  border: 1px solid grey;
+  width: 100px;
+  height: 10px;
+}
+.formPage > .row13 > div > textarea {
+  width: 90%;
+  height: 100px;
+  padding: 15px 5px;
+  /* box-sizing: border-box; */
+  border: none;
+  outline: none;
+  font-size: 15px;
+  resize: none;
+}
+.formPage > .row14{
+  display: block !important;
+}
+.formPage > .row14 > .firstPara > p{
+  text-decoration: underline;
+}
+.formPage > .row14 > .paraTwo{
+  display: flex !important;
+}
+.formPage > .row12 > div{
+  display: flex;
+  width: 100%;
+}
+.formPage > .row12 > div > textarea{
+  width: 90%;
+  height: 150px;
+  padding: 15px 5px;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  font-size: 15px;
+  resize: none;
+}
+.button {
+  display: inherit;
+  margin: 20px;
+  padding: 0px;
+}
